@@ -1,0 +1,31 @@
+import { DomainFoodVitamins } from './food-vitamins.type';
+export type DomainFoodVitaminsUpdateData = Partial<DomainFoodVitamins>;
+export declare const isDomainFoodVitaminsUpdateData: import("superstruct").Struct<{
+    a: number;
+    b1: number;
+    b2: number;
+    b3: number;
+    b5: number;
+    b6: number;
+    b7: number;
+    b9: number;
+    b12: number;
+    c: number;
+    d: number;
+    e: number;
+    k: number;
+}, import("superstruct/dist/utils").PartialObjectSchema<{
+    a: import("superstruct").Struct<number, null>;
+    b1: import("superstruct").Struct<number, null>;
+    b2: import("superstruct").Struct<number, null>;
+    b3: import("superstruct").Struct<number, null>;
+    b5: import("superstruct").Struct<number, null>;
+    b6: import("superstruct").Struct<number, null>;
+    b7: import("superstruct").Struct<number, null>;
+    b9: import("superstruct").Struct<number, null>;
+    b12: import("superstruct").Struct<number, null>;
+    c: import("superstruct").Struct<number, null>;
+    d: import("superstruct").Struct<number, null>;
+    e: import("superstruct").Struct<number, null>;
+    k: import("superstruct").Struct<number, null>;
+}>>;

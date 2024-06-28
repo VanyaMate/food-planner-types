@@ -1,0 +1,25 @@
+{
+    "name": "@food-planner/types",
+    "version": "0.0.1",
+    "description": "types",
+    "types": "./*/*.d.ts",
+    "scripts": {
+        "g:type": "tsc"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/VanyaMate/food-planner-types.git"
+    },
+    "keywords": [
+        "types"
+    ],
+    "author": "Vanya Mate",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/VanyaMate/food-planner-types/issues"
+    },
+    "homepage": "https://github.com/VanyaMate/food-planner-types#readme",
+    "dependencies": {
+        "superstruct": "^1.0.4"
+    }
+}
