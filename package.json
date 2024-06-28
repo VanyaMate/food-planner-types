@@ -1,5 +1,5 @@
 {
-    "name": "@food-planner/types",
+    "name": "@vanyamate/food-planner-types",
     "version": "0.0.1",
     "description": "types",
     "types": "./*/*.d.ts",
